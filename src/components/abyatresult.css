@@ -1,0 +1,201 @@
+
+
+
+
+.abyatResultContainer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .abyatResultContainerDark {
+    background-color: rgb(49, 69, 109);
+    border: 2px solid rgb(127, 154, 224);
+    color: white;
+  }
+  
+  .abyatResultContainerLight {
+    background-color: rgb(244, 252, 255);
+    border: 2px solid rgb(196, 211, 250);
+    color: black;
+  }
+  
+  .abyatResultContainerTitle{
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 20px;
+  }
+  
+ 
+  
+
+
+  .abyatResultContainerWordDark{
+    text-align: right;
+    color: rgb(153, 203, 241);
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+
+  .abyatResultContainerWordLight{
+    text-align: right;
+    color: rgb(30, 139, 223);
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+
+  .AbyatContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .AbyatContainerDark {
+    background-color: rgb(49, 69, 109);
+    border: 2px solid rgb(127, 154, 224);
+    color: white;
+  }
+  
+  .AbyatContainerLight {
+    background-color: rgb(244, 252, 255);
+    border: 2px solid rgb(196, 211, 250);
+    color: black;
+  }
+  
+  .AbyatContainerTitle {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  
+  .AbyatContainerInputGroup {
+    direction: rtl;
+    width: 100% !important;
+  }
+  
+  .AbyatContainerInput {
+    padding-right: 35px !important;
+    max-width: 100% !important;
+  }
+  
+  .AbyatContainerDetails {
+    font-weight: 400;
+    font-size: smaller;
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .AbyatContainerButton {
+    margin-top: 20px;
+    padding: 0 50px !important;
+  }
+  
+  .AbyatContainerTip {
+    margin-bottom: 10px !important;
+    margin-top: 10px;
+    color: brown;
+  }
+  
+  
+  .AbyatContainerCol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .AbyatContainerRow {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  
+  .AbyatContainerRowCol {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .AbyatContainerLabel{
+      color: rgb(250, 133, 133);
+      float: right;
+  }
+
+
+  .AbyatContainerH3Dark{
+    font-size: 26px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(40, 60, 90);
+  }
+
+  .AbyatContainerResultBoxRow{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 20px;
+  }
+
+  .AbyatContainerH4Dark{
+    background-color: rgb(5, 28, 48);
+    padding: 15px 30px;
+    border-radius: 10px;
+  }
+
+  .AbyatContainerH5Dark{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .AbyatContainerH4Light{
+    background-color: rgb(203, 225, 244);
+    border: 1px solid rgb(151, 185, 214);
+    color: rgb(13, 13, 49);
+    padding: 15px 30px;
+    border-radius: 10px;
+  }
+
+  .AbyatContainerH5Light{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  
+  .AbyatContainerH3Light{
+    font-size: 26px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(146, 173, 214);
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    
+  .AbyatContainerResultBoxRow{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .AbyatContainerRow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abyatResultContainer {
+    width: 90%;
+  }
+    
+  
+  .AbyatContainer {
+    width: 90%;
+  }
+
+  }
